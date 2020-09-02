@@ -9,7 +9,7 @@ The first line contains two natural numbers `N` and `M`. The second line has `N`
 ## Output
 
 Print the price of the chocolate which Ayush should buy.
-Note: If ayush cannot affort any chocolate then return -1.
+Note: If Ayush cannot afford any chocolate, then return -1.
 
 ## Examples
 
