@@ -24,14 +24,22 @@ In the second line, print the number of steps required.
 
 ### Example 1
 #### Input:
-`3 10 2`
+```
+3 10 2
+```
 #### Output:
-`3 5 7 9 `
-`3`
+```
+3 5 7 9 
+3
+```
 
 ### Example 2
 #### Input:
-`10 70 10`
+```
+10 70 10
+```
 #### Output:
-`10 20 30 40 50 60 70 `
-`7`
+```
+10 20 30 40 50 60 70
+7
+```

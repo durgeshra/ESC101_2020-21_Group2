@@ -1,9 +1,9 @@
-# Skipping Stones
+# Buying Chocolate
 
 Ayush has received `M` rupees from his father today. He goes to a nearby chocolate store. The shopkeeper shows Ayush `N` options, each with different prices. Ayush loves chocolates, so he wants to buy the most expensive one, which falls under his budget. Ayush is weak in numbers and needs your help.
 
-
 ## Input
+
 The first line contains two natural numbers `N` and `M`. The second line has `N` distinct natural numbers separated by spaces indicating the price of `N` chocolates.
 
 ## Output
