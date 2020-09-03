@@ -2,7 +2,7 @@
 
 You have a number line with a stone placed at each integer position. You are standing at position `a`, and your destination is `b`.
 
-Unfortunately, you can take jumps of exactly `n` positions at a time. Hence, it may not always be possible to reach `b`. So, you have to get as close to `b` as possible, but NOT exceed `b`.
+Unfortunately, you can take jumps of exactly `n` positions at a time. Hence, it may not always be possible to reach `b`. So, you have to get as close to `b` as possible, such that the final position is less than or at `b`.
 
 ## Input
 

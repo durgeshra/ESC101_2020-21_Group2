@@ -1,4 +1,4 @@
-
+Voldemort's Favorite Number
 
 It is Lord Voldemort's birthday. His faithful set of servants gift him a list of numbers.
 Lord Voldemort wants to find the count of numbers which have sum of digits greater than or equal to 7 (since 7 is his favourite number).
