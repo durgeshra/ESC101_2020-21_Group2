@@ -14,9 +14,11 @@ Note: `n` will be a positive integer.
 
 ## Output
 
-Print two numbers `c` and `s` where `c` is your final position and `s` is the minimum number of steps taken to get to `c`. The format will be:
+The output will consist of two lines.
 
-`c s`
+In the first line, print your position after each step starting from `a` to your final position.
+
+In the second line, print the number of steps required.
 
 ## Examples
 
@@ -24,10 +26,12 @@ Print two numbers `c` and `s` where `c` is your final position and `s` is the mi
 #### Input:
 `3 10 2`
 #### Output:
-`9 3`
+`3 5 7 9 `
+`3`
 
 ### Example 2
 #### Input:
-`10 200 10`
+`10 70 10`
 #### Output:
-`200 19`
+`10 20 30 40 50 60 70 `
+`7`
