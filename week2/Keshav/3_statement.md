@@ -25,7 +25,7 @@ Output the count of numbers which have sum of digits greater that equal to 7.
 2
 ```
 #### Explanation:
--8 and 589 have sum of digits 8 and 22. 2, -4 and 5 have sum of digits as 2, 4 and 5. 
+-8 and 589 have sum of digits 8 and 22 (satisfying <=7). 2, -4 and 5 have sum of digits as 2, 4 and 5 (not satisfying). 
 
 ### Note:
 For negative numbers, sum of digits is taken simply without considering the negative sign.
