@@ -14,6 +14,7 @@ int main(){
 
     if(a<b){                            // If initial position is behind destination, we jump ahead
         while(c<=b){
+            printf("%d ", c);           // Print position
             c = c+n;
             s = s+1;
         }
@@ -22,12 +23,14 @@ int main(){
     }
     else{                               // If initial position is ahead of destination, we jump behind
         while(c>b){
+            printf("%d ", c);           // Print position
             c = c-n;
             s = s+1;
         }
+        printf("%d ", c);               // Printing final position is necessary, because the while loop will exit before printing it.
     }
 
-    printf("%d %d\n", c, s);            // Print the answer
+    printf("\n%d\n", s);                // Print the answer in a new line
 
     return 0;
 }
