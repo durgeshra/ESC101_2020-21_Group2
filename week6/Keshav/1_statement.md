@@ -2,7 +2,7 @@
 
 You are given a 2D matrix of size N x N. You need to find the transpose of the matrix, in place. In place means that you are required to calculate the transpose within the same input matrix and you cannot use any extra 1D or 2D array.
 
-Also, any access of the element in 2D array (during input, modification, and output ) must be done only using pointers. You are not allowed to make use of [] for indexing.
+Also, any access of an element in the 2D array (during input, modification, and output) must be done only using pointers. You are not allowed to make use of [] operator for indexing.
 
 Note: An  N x N matrix B is the transpose of a N x N matrix `A` if
     A<sub>i,j</sub> = B<sub>j,i</sub> for all valid i and j.
