@@ -10,7 +10,7 @@ A line in 2-d plane can be uniquely defined by it slope and y-intercept. Given t
 The first and only line of input will contain 4 integers.
 
 ```
-m1 c1 m2 b2
+m1 c1 m2 c2
 ```
 
 Where m<sub>i</sub> and c<sub>i</sub> are slope and y-intercept of ith line.
