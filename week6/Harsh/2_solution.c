@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+int find_intersection_point(double* x, double* y, int m1, int c1, int m2, int c2)
+{
+	/* Complete the function */
+    if(m1 == m2) return -1;
+    *x = (c2-c1)/(double)(m1-m2);
+    *y = m1*(*x) + c1;
+	return 0;
+}
+
 int main() {
 	
 	/* Write your code here */
@@ -11,14 +20,5 @@ int main() {
     } else {
         printf("-1\n");
     }
-	return 0;
-}
-
-int find_intersection_point(double* x, double* y, int m1, int c1, int m2, int c2)
-{
-	/* Complete the function */
-    if(m1 == m2) return -1;
-    *x = (c2-c1)/(double)(m1-m2);
-    *y = m1*(*x) + c1;
 	return 0;
 }
