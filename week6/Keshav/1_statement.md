@@ -23,13 +23,16 @@ Your output should consist of `N` lines. i<sup>th</sup> line of output correspon
 
 ### Example 1
 #### Input
+```
 3
 1 2 3
 4 5 6
 7 8 9
+```
 ### Output
+```
 1 4 7
 2 5 8
 3 6 9
-
+```
 Note : Value of N can be between 1 and 100 
