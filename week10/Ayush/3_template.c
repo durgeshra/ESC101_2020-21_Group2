@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 typedef struct Node {
-	int val;
-	struct Node* next;
+    int val;
+    struct Node* next;
 } Node;
 
 Node* createNode(int dt){
@@ -42,16 +42,16 @@ void output(Node* head){
     printf("\n");
 }
 
-Node* insertInSortedCyclicList(Node* head, int x) {
+Node* insertInSortedCyclicList(Node* start, int x) {
     /*
         Write your code here
     */
 }
 
 int main() {
-	int N; scanf("%d",&N);
-	Node* head = input(N);
-	int x; scanf("%d",&x);
-	head = insertInSortedCyclicList(head, x);
-	output(head);
+    int N; scanf("%d",&N);
+    Node* start = input(N);
+    int x; scanf("%d",&x);
+    start = insertInSortedCyclicList(start, x);
+    output(start);
 }

@@ -42,13 +42,13 @@ void output(Node* head){
     printf("\n");
 }
 
-Node* insertInSortedCyclicList(Node* head, int x) {
+Node* insertInSortedCyclicList(Node* start, int x) {
     // shorter code
-    if (!head) {
-        head = createNode(x);
-        head->next = head;
+    if (!start) {
+        start = createNode(x);
+        start->next = start;
     } else {
-        Node *prev = head, *curr = head->next, *begin = NULL, *end = NULL;
+        Node *prev = start, *curr = start->next, *begin = NULL, *end = NULL;
         int break_flag = 0;
         while(1) {
             if (prev->val <= x && x <= curr->val) break;
@@ -57,19 +57,19 @@ Node* insertInSortedCyclicList(Node* head, int x) {
                 if (prev->val <= x) break;
             }
             prev = curr; curr = curr->next;
-            if (curr == head->next) {break_flag = 1; break;}
+            if (curr == start->next) {break_flag = 1; break;}
         }
-        if (break_flag) {prev = end?end:head; curr = begin?begin:head->next;}
+        if (break_flag) {prev = end?end:start; curr = begin?begin:start->next;}
         prev->next = createNode(x);
         prev->next->next = curr;
     }
-    return head;
+    return start;
 }
 
 int main() {
 	int N; scanf("%d",&N);
-	Node* head = input(N);
+	Node* start = input(N);
 	int x; scanf("%d",&x);
-	head = insertInSortedCyclicList(head, x);
-	output(head);
+	start = insertInSortedCyclicList(start, x);
+	output(start);
 }
