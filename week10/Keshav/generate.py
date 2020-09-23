@@ -1,21 +1,21 @@
 import numpy as np
-f = open('visible/hidden3.txt','w')
-def sum_dig(n):
-    s = 0
-    while(n>0):
-        s+=n%10
-        n=n//10
-    return s
-total = 0
-for i in range(30):
 
-    x = np.random.randint(-10,30)
-    while x is -1:
-        x = np.random.randint(-1000,1000)
-    if x < 0:
-        x = -x
-    if sum_dig(x) >= 7:
-        total+=1
-    f.write("%d "%x)
-f.write("-1")
-print(total)
+for i in range(2,4):
+    filename = 'hidden/hidden_%d.txt'%i
+    n = np.random.randint(50,100)
+    arr = np.random.randint(-50,100,n)
+    # mat = np.random.randint(-50,100,n*n).reshape((n,n))
+    fileptr = open(filename,'w')
+    fileptr.write("%d\n"%n)
+    for x in arr:
+        fileptr.write("%d "%x)
+    fileptr.write("\n")
+
+    arr = arr[::-1]
+    fileptr = open('hidden/output_%d.txt'%i,'w')
+    # fileptr.write("%d\n"%n)
+    for x in arr:
+        fileptr.write("%d "%x)
+    fileptr.write("\n")
+    
+    fileptr.close()
