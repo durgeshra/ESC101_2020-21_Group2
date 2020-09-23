@@ -1,6 +1,6 @@
 # Large Number Arithmetic
 
-You are given two very large numbers `a` and `b`. Returh the product of `a` and `b`.
+You are given two very large numbers `a` and `b`. Return the product of `a` and `b`.
 Since the numbers are huge, you are supposed to use linked list to store them and perform their arithmetic.
 
 Hint: Using a doubly linked list might make your code's logic easier and more intuitive.
