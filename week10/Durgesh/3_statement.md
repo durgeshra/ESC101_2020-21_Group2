@@ -16,15 +16,23 @@ The product.
 ## EXAMPLE:
 
 ### INPUT
+```
 500
 7
 0
+```
 ### OUTPUT
+```
 3500
+```
 
 ### INPUT
+```
 500
 0
 0
+```
 ### OUTPUT
+```
 0
+```
