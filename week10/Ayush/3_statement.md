@@ -10,9 +10,9 @@ Also, the insertion must be performed in place and in linear time (Time Complexi
 
 ## Input
 
-- The first line will consist of an integer `N`.
-- The next lines will consist of `N` space-separated integers corresponding to the nodes of the linked list (Since the linked list is cyclic, these values could be cyclically permuted in any order to get the same cyclic linked list but in each case only the node corresponinding to the first value will be passed into your function).
-- The next line will contain the value `x` which has to be inserted into the list.
+- The first line contains an integer `N`.
+- The next line consists of `N` space-separated integers corresponding to the nodes of the linked list (Since the linked list is cyclic, these values could be cyclically permuted in any order to get the same cyclic linked list but in each case only the node corresponinding to the first value will be passed into your function).
+- The next line contains the value `x` which has to be inserted into the list.
 
 Note that the input has already been handled for you.
 
